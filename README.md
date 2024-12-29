@@ -29,7 +29,7 @@ This file contains the NextState function, which simulates a single timestep of 
 #### Process Outline
 1. Create a reference trajectory based on the initial and goal configurations of a target object.
 2. Use forward kinematics to get the current configuration of the end-effector for each reference frame.
-3. Use feedforward + PI control to determine error based on the current frame error.
+3. Use feedforward + PI control to determine the current error from the expected reference frame.
 4. Plan a corrective end-effector twist based on this error and the next frame in the trajectory.
 5. Calculate the manipulator Jacobian and the necessary wheel and joint speeds to reach the next reference frame.
 6. Integrate wheel and joint speeds to reach the desired reference frame.
