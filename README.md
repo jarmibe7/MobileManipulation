@@ -38,7 +38,7 @@ This file contains the NextState function, which simulates a single timestep of 
 
 ## Results
 ### Feedforward + PI Control with minimal overshoot
-The goal for this stage was to design an optimized controller that allows the youBot to perform the 
+The goal for this stage was to design an optimized controller that enables the youBot to perform the 
 pick-and-place task with minimal overshoot. This controller was tested with multiple pick-and-place
 tasks. Generally, the transient error converged quickly, and the youBot was able to perform all
 tasks successfully. The figure below is the result from one pick-and-place task, demonstrating the convergence
