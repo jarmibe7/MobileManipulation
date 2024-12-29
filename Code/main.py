@@ -217,8 +217,6 @@ def run_simulation(task, T_sc_i, T_sc_f, iconfig, save_folder):
         # Simulate next frame of trajectory
         config = NextState(config, speeds, dt, max_speed, H, T_sb)
 
-        
-
         # Check if joint limits have been violated
         violation, Je_mod = TestJointLimits(config, Je)
         if violation:
