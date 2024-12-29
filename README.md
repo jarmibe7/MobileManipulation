@@ -21,7 +21,7 @@ joint speed parameter.
 
 - feedback_control.py<br>
 This file contains the feedforward + PI feedback control function. It also contains the function TestJointLimits, 
-which tests for self-collisions and singularities, and modifies the manipulator jacbian accordingly.
+which tests for self-collisions and singularities, and modifies the manipulator Jacobian accordingly.
 
 - simulator.py<br>
 This file contains the NextState function, which simulates a single timestep of the robot's movement.
