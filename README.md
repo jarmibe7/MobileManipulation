@@ -46,7 +46,7 @@ of the transient error after an incorrect initial configuration.
 
 ![best_errors_fig.png](Figures/best_errors_fig.png)
 
-Here is a video demonstration.
+Here is a video demonstration of the optimized controller.
 
 ![best_demo.gif](Figures/best_demo.gif)
 
@@ -60,7 +60,7 @@ desired trajectory.
 
 ![overshoot_errors_fig.png](Figures/overshoot_errors_fig.png)
 
-Here is a video demonstration.
+Here is a video demonstration of the controller with overshoot.
 
 ![overshoot_demo.gif](Figures/overshoot_demo.gif)
 
