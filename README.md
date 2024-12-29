@@ -34,6 +34,7 @@ This file contains the NextState function, which simulates a single timestep of 
 5. Calculate the manipulator Jacobian and the necessary wheel and joint speeds to reach the next reference frame.
 6. Integrate wheel and joint speeds to reach the desired reference frame.
 7. Apply joint limits to prevent singularities and self-collisions.
+8. Repeat steps 2-7 for entire reference trajectory.
 
 ## Results
 ### Feedforward + PI Control with minimal overshoot
