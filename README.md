@@ -1,7 +1,7 @@
-## Wheeled Mobile Manipulation of KUKA youBot
-**Jared Berry**
+## Pick-and-Place + Mobile Manipulation of a KUKA youBot
+**Author: Jared Berry**
 
-Northwestern University ME 449: Robotic Manipulation (Fall 2024)
+This project was associated with Northwestern University ME 449: Robotic Manipulation (Fall 2024).
 
 ## Introduction
 #### Objective
@@ -42,6 +42,7 @@ pick-and-place task with minimal overshoot. This controller was tested with mult
 tasks. Generally, the transient error converged quickly, and the youBot was able to perform all
 tasks successfully. The figure below is the result from one pick-and-place task, demonstrating the convergence
 of the transient error after an incorrect initial configuration.
+
 ![best_errors_fig.png](Figures/best_errors_fig.png)
 
 Here is a video demonstration.
@@ -54,6 +55,7 @@ The task for this stage was to design an optimized controller that allows the yo
 pick-and-place task with minimal overshoot. This allowed me to prove the versatility of my controller,
 and demonstrate my depth of knowledge. The figure below demonstrates an initial overshoot, followed by
 a rapid convergence. 
+
 ![overshoot_errors_fig.png](Figures/overshoot_errors_fig.png)
 
 Here is a video demonstration.
