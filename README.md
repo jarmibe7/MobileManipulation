@@ -9,21 +9,21 @@ The goal of this project was to perform pick-and-place mobile manipulation tasks
 from an initial condition with an arbitrary error relative to a desired trajectory.
 
 #### Software Format
-- main.py
+- main.py<br>
 This file allows the user to run the code. It contains the simulation
 loop, and functions to load the robot kinematics and system parameters. It also
 has helper functions to calculate the manipulator jacobian and plot the errors.
 
-- trajectory_generator.py
+- trajectory_generator.py<br>
 This file contains the function to generate the reference trajectory. The time for each
 trajectory segment is calculated dynamically using the distance of the trajectory and a 
 joint speed parameter.
 
-- feedback_control.py
+- feedback_control.py<br>
 This file contains the feedforward + PI feedback control function. It also contains the function TestJointLimits, 
 which tests for self-collisions and singularities, and modifies the manipulator jacbian accordingly.
 
-- simulator.py
+- simulator.py<br>
 This file contains the NextState function, which simulates a single timestep of the robot's movement.
 
 #### Process Outline
