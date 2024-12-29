@@ -6,7 +6,7 @@ This project was associated with Northwestern University ME 449: Robotic Manipul
 ## Introduction
 #### Objective
 The goal of this project was to perform pick-and-place mobile manipulation tasks with a KUKA youBot, starting
-from an initial condition with an arbitrary error from a desired trajectory.
+from an initial condition with an arbitrary error relative to a desired trajectory.
 
 #### Software Format
 - main.py
